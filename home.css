@@ -38,9 +38,9 @@ html, body {
   opacity: 50%;
 }
 #home{
-  width: 4%;
+  width: 6%;
   margin-right: 1%;
-  margin-left: 30%;
+  margin-left: 22%;
   margin-bottom: 4%;
   
   
@@ -51,7 +51,7 @@ html, body {
 }
 
 #contact{
-  width: 4.3%;
+  width: 6.3%;
   margin-right: 1%;
   margin-left: 1%;
   margin-bottom: 3.9%;
@@ -61,7 +61,7 @@ html, body {
   opacity: 50%;
 }
 #gallery{
-  width: 4.5%;
+  width: 6.5%;
   margin-right: 1%;
   margin-left: 1%;
   margin-bottom: 3.84%;
@@ -72,10 +72,10 @@ html, body {
   opacity: 50%;
 }
 #pricing{
-  width: 3.8%;
+  width: 5.8%;
   
   margin-left: .5%;
-  margin-bottom: 3.782%;
+  margin-bottom: 3.6%;
 
 }
 #pricing:hover{
@@ -181,5 +181,7 @@ html, body {
   margin-top: 4%;
 
 }
+
+
 
 
