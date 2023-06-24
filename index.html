@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Madilyn Logan Photography</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Local Kansas City Photographer, Madilyn Logan.">
+    <meta name="keywords" content="photographer, madilyn, logan, logan photagraphy, cheap, wedding, wedding photographer, kansas city, lees summit, missouri, senior, engagement, local, photos">
+    <meta name="author" content="Blake Logan">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <script src="https://kit.fontawesome.com/8e9fff24de.js" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+
+  
+    
+    <img src="loga.JPG" id="logo"></img>
+    <a href="https://www.instagram.com/madlophotoss"><img src="insta.JPG" id="instagram"></img></a>
+    <a href="https://www.facebook.com/profile.php?id=100093627891936&mibextid=LQQJ4d"><img src="facebookimg.JPG" id="facebook"></img></a>
+
+    <a class="nav"  href="index.html"><img src="homeimg.JPG" id="home"></img></a>
+    <a  href="https://docs.google.com/forms/u/0/d/e/1FAIpQLSe09oDQnABZ5Iw--Wd92P5LaYSfhJhix3hcr4lXMBiCUT59Bg/formResponse" class="nav"><img src="contimg.JPG" id="contact"></img></a>
+    <a class="nav" href="gallery.html"><img src="galimg.JPG" id="gallery"></img></a>
+    <a href="pricing.html" class="nav"><img src="pricimg.JPG" id="pricing"></img></a>
+    
+
+    <div id="line"><hr></div>    
+    
+    
+    <div id="image-container">
+      <img id="pic16" class="animated" src="Madilyn pics - Copy/IMG_0016.JPG">
+      <img id="pic7" class="animated" src="Madilyn pics - Copy/IMG_0007.JPG">
+      <img id="pic18" class="animated" src="Madpic2/IMG_0018.JPG">
+      <img id="pic11" class="animated" src="Madilyn pics - Copy/IMG_0011.JPG">
+      <img id="cover" class="animated" src="IMG_0015.JPG"></img>
+      <img id="pic17" class="animated" src="Madpic2/IMG_0017.JPG">
+
+
+    </div>
+    
+
+
+    <div id="line2"><hr></div>    
+    <img id="biopic" class="animated" src="biopic.JPG"></img>
+    
+    <h1 id="bio">Meet Madilyn</h1>
+    <div id="p1"> Introducing Madilyn, a passionate photographer based in Kansas City, Missouri. With a deep love for photography, Madilyn is dedicated to providing an enjoyable and memorable experience for all her clients.<br><br>
+      With a warm and approachable nature, Madilyn creates a comfortable atmosphere during every photoshoot. Her goal is to capture genuine moments that reflect the unique personalities and emotions of her subjects. Whether it's an outdoor adventure or an intimate indoor session, Madilyn has an innate ability to freeze time and craft images that tell captivating stories.
+
+      <br><br>Beyond her technical expertise and artistic vision, Madilyn believes in building strong connections with her clients. She understands that trust and collaboration are essential in creating extraordinary photographs. By working closely with individuals, Madilyn ensures that their visions are understood and translated into stunning images.
+      
+      <br><br>When she's not behind the camera, Madilyn can be found exploring the vibrant streets of Kansas City, constantly seeking new perspectives and hidden gems to capture. She believes that every corner of the city is a potential masterpiece waiting to be discovered.
+      
+      <br><br>For an enjoyable photography experience that celebrates your moments and preserves them beautifully, choose Madilyn. With her passion, expertise, and genuine love for photography, she will create timeless images that reflect the essence of Kansas City and the cherished memories you hold dear.</div>
+
+
+
+
+    <script>
+        // Function to check if an element is in the viewport
+        function isElementInViewport(element) {
+          var rect = element.getBoundingClientRect();
+          return (
+            rect.top >= 0 &&
+            rect.left >= 0 &&
+            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+            rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+          );
+        }
+      
+        // Function to handle scroll event
+        function handleScroll() {
+          var cover = document.getElementById("cover");
+          var biopic = document.getElementById("biopic");
+          var pic7 = document.getElementById("pic7");
+          var pic16 = document.getElementById("pic16");
+          var pic18 = document.getElementById("pic18");
+          var pic11 = document.getElementById("pic11");
+          var pic17 = document.getElementById("pic17");
+
+
+
+          if (isElementInViewport(cover)) {
+            cover.classList.add("animated");
+          } else {
+            cover.classList.remove("animated");
+          }
+
+          if (isElementInViewport(biopic)) {
+            biopic.classList.add("animated");
+          } else {
+            biopic.classList.remove("animated");
+          }
+
+          if (isElementInViewport(pic7)) {
+            biopic.classList.add("animated");
+          } else {
+            biopic.classList.remove("animated");
+          }
+
+          if (isElementInViewport(pic16)) {
+            biopic.classList.add("animated");
+          } else {
+            biopic.classList.remove("animated");
+          }
+
+          if (isElementInViewport(pic18)) {
+            biopic.classList.add("animated");
+          } else {
+            biopic.classList.remove("animated");
+          }
+
+          if (isElementInViewport(pic11)) {
+            biopic.classList.add("animated");
+          } else {
+            biopic.classList.remove("animated");
+          }
+
+          if (isElementInViewport(pic17)) {
+            biopic.classList.add("animated");
+          } else {
+            biopic.classList.remove("animated");
+          }
+        }
+      
+        // Add scroll event listener
+        window.addEventListener("scroll", handleScroll);
+      </script>
+</body>
+
+
+</html>
