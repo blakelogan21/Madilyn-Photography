@@ -124,28 +124,28 @@ html, body {
 }
 
 #cover.animated {
-  animation: coverAnimation 2s forwards;
+  animation: coverAnimation 1s forwards;
 }
 
 
 #biopic.animated {
-  animation: coverAnimation 2s forwards;
+  animation: coverAnimation 1s forwards;
 }
 
 #pic7.animated {
-  animation: coverAnimation 2s forwards;
+  animation: coverAnimation 1s forwards;
 }
 #pic17.animated {
-  animation: coverAnimation 2s forwards;
+  animation: coverAnimation 1s forwards;
 }
 #pic18.animated {
-  animation: coverAnimation 2s forwards;
+  animation: coverAnimation 1s forwards;
 }
 #pic16.animated {
-  animation: coverAnimation 2s forwards;
+  animation: coverAnimation 1s forwards;
 }
 #pic11.animated {
-  animation: coverAnimation 2s forwards;
+  animation: coverAnimation 1s forwards;
 }
 
 
@@ -181,6 +181,8 @@ html, body {
   margin-top: 4%;
 
 }
+
+
 
 
 
