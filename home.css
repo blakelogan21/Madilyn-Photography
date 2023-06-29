@@ -97,6 +97,7 @@ html, body {
   flex: 1 1 auto;
   width: calc(25% - 1%); /* Calculate the width for the images */
   margin: 0.5%;
+  object-fit: cover;
   box-shadow: 5px 5px 5px;
 }
 
