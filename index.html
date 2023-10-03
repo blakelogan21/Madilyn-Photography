@@ -43,8 +43,9 @@
     
 
 
-    <div id="line2"><hr></div>    
-    <img id="biopic" class="animated" src="biopic.JPG"></img>
+   <div id="line2"><hr></div>    
+    <img id="biopic" class="animated" src="newcover.jpg"></img>
+    <img id="biopic2" class="animated" src="newcover2.jpg"></img>
     
     <h1 id="bio">Meet Madilyn</h1>
     <div id="p1"> Introducing Madilyn, a passionate photographer based in Kansas City, Missouri. With a deep love for photography, Madilyn is dedicated to providing an enjoyable and memorable experience for all her clients.<br><br>
@@ -75,6 +76,7 @@
         function handleScroll() {
           var cover = document.getElementById("cover");
           var biopic = document.getElementById("biopic");
+          var biopic2 = document.getElementById("biopic2");
           var pic7 = document.getElementById("pic7");
           var pic16 = document.getElementById("pic16");
           var pic18 = document.getElementById("pic18");
@@ -94,6 +96,13 @@
           } else {
             biopic.classList.remove("animated");
           }
+          
+          if (isElementInViewport(biopic2)) {
+            biopic2.classList.add("animated");
+          } else {
+            biopic2.classList.remove("animated");
+          }
+
 
           if (isElementInViewport(pic7)) {
             pic7.classList.add("animated");
